@@ -12,7 +12,6 @@
        (partition 2 1)
        (filter (fn [[a b]] (< a b)))
        count))
-       
 
 (def part-2
   (->> input
